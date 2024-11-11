@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:mtv.com:d2906a58-a278-499a-af13-93a44e50f404?format=webp");
+    background-repeat: repeat-y;
+    background-size:100%;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height:64px;
+}
+.imageContainer{
+    position: relative;
+    height:auto; 
+}
+.seriesContentContainer{
+    position: relative;
+}
+.episodeContainer{
+    height:250px;
+    margin:1em;
+    color:white;
+}
+.iconContainer{
+    display:flex;
+    width:30%;
+    margin:10px;
+}
+.btnContainer{
+    width:70%;
+    margin:10px;
+}
+.sidebar, .logo{
+    height:100%;
+}
+.mtvLogin{
+    width:165px;
+    font-size:18px;
+    font-weight: bolder;
+    border-radius:8px;
+    margin-top:12px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;  
+    background-color: yellow;
+    color:black;
+    font-family:Atial;
+    margin-left:65%;
+}
+.mtvLogin:hover{
+    background-color: aqua;
+}
+.mtv{
+    align-content: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.overlayText, .overlayText3{
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 15%;
+    left: 16px;
+}
+.overlayText2{
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 15%;
+    right: 16px;
+    text-align: center;
+}
+.overlayText3{
+    text-align: center;
+}
+.subText{
+    font-weight: normal;
+    color: gray;
+}
+.imgBtns{
+    display:flex;
+    justify-content: space-between;
+    width:310px;
+}
+/*.watchNow, .learnMore{*/
+.buttons{
+    width:150px;
+    font-size:18px;
+    font-weight: bolder;
+    border-radius:8px;
+    margin: top 10%;;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: yellow;
+    color:black;
+    font-family:Atial;
+}
+.buttons:hover{
+    background-color: aqua;
+}
+#learnMore{
+    background-color: darkgray;
+}
+#learnMore:hover{
+    background-color: white;
+    color: black;
+}
+#watchOnParamount, #exploreMore{
+    width:250px;
+}
+.seriesContentContainer{
+    color: white;
+    margin:1em;
+}
+.series{
+    height:500px;
+    margin-bottom: 35px;
+}
+#series1, #series4{
+    position: relative;
+    height:500px;
+}
+#series2, #series3, #series5{
+    height:250px;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+}
+.video:hover, .video2:hover{
+    border:solid yellow;
+}
+.video{
+    width: 209px;
+    height: 118px;
+    margin-right: 12px;
+}
+.video2{
+    width: 137px;
+    height: 205px;
+    margin-right: 12px;
+}
+#gladImg, #inkImg{
+    height: 100%;
+    width: 100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*#gladOverlay{
+    text-align: center;
+}*/
